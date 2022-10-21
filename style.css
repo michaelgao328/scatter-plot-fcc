@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 131, 163)
+}
+
+svg{
+    background-color: rgb(179, 205, 212);
+}
+
+.dot:hover{
+    fill: rgb(0, 0, 0);
+}
+
+g{
+    color: rgb(0, 0, 0);
+}
+
+#tooltip{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+#legend{
+    margin-top: 5px;
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+    text-align: center;
+}
+
+#title{
+    font-size: 24px;
+    fill: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
